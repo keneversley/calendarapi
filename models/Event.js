@@ -19,12 +19,12 @@ Event.init(
         // turn on auto increment
         autoIncrement: true
       },
-      // define a username column
+      // define a title column
       title: {
         type: DataTypes.STRING,
         allowNull: false
       },
-      // define an email column
+      // define description column
       description: {
         type: DataTypes.STRING,
         allowNull: false,
