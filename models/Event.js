@@ -31,6 +31,13 @@ Event.init(
        
        
       },
+      // define comment column
+      Comment: {
+        type: DataTypes.STRING,
+        allowNull: false,
+       
+       
+      },
       
       date: {
           //DataTypes.STRING (DEPENDS ON THE FRONT END)

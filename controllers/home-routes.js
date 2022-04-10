@@ -1,5 +1,5 @@
 // make a route the handlebars 
-const {User, Event} =require ("../models")
+const {User, Event} = require ("../models")
 const router = require('express').Router();
 
 

@@ -4,8 +4,9 @@
 const router = require('express').Router();
 
 const userRoutes = require('./user-routes.js');
-
+const calendarRoutes = require('./calendar-routes.js');
 router.use('/users', userRoutes);
+router.use('/calendar', calendarRoutes);
 
 const eventRoutes = require('./event-routes.js');
 

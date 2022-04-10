@@ -1,5 +1,4 @@
 const User = require('./User');
-
 const Event = require('./Event');
 // this connets the user with the events in the calender 
 
