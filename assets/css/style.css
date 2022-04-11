@@ -1,0 +1,31 @@
+header {
+    text-align: center;
+    font-size: 80px;
+    height: 250px;
+    background-color: #428bca;
+    border-radius: 5%;
+}
+
+.head {
+    position: relative;
+    top: 40px;
+    color: #fff;
+}
+
+button {
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.create {
+    background-color: green;
+}
+
+.edit {
+    background-color: orange;
+}
+
+.delete {
+    background-color: red;
+}
+
