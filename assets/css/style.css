@@ -37,7 +37,7 @@ main {
     padding-left: 25px;
 }
 
-.date {
+#date {
     width: 200px;
     height:150px;
     border:1px solid #000;
