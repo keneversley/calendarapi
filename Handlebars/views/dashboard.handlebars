@@ -1,5 +1,5 @@
 <section>
-  <h2>Create New Post</h2>
+  <h2>Create New Event</h2>
 
   <form class="new-post-form">
     <div>
@@ -11,21 +11,24 @@
       <input id="post-url" name="post-url" />
     </div>
     <button type="submit" class="btn">Create</button>
+      <button type="submit" class="btn">Edit</button>
+      <button type="submit" class="btn">Delete</button>
   </form>
 </section>
 
 {{#if posts.length}}
 <section>
-  <h2>Your Posts</h2>
+  <h2>Your Schedule</h2>
   <ol>
     {{#each posts as |post|}}
     <li>
       {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit event</a>
     </li>
     {{/each}}
-  </ol>
 </section>
 {{/if}}
 
-<script src="/javascript/add-post.js"></script>
+<script src="index.html"></script>
+ <script src="javascript/login.js"></script>
+  <script src="javascript/logout.js"></script>
