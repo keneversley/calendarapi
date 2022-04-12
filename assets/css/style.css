@@ -1,3 +1,7 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 header {
     text-align: center;
     font-size: 80px;
@@ -31,16 +35,34 @@ button {
     background-color: red;
 }
 
+/* Days of the week */
+nav {
+    padding: 5px 0 0 35px;
+}
+
+nav div {
+    width: 220px;
+    height: 100px;
+    border:1px solid #000;
+    display: inline-block;
+}
+
 
 /* Dates */
 main {
-    padding-left: 25px;
+    padding-left: 35px;
 }
 
 #date {
-    width: 200px;
+    width: 220px;
     height:150px;
     border:1px solid #000;
     display: inline-block;
     margin: 5px 0 0 0;
+}
+
+#date .num{
+    padding: 5px 0 0 5px;
+    font-size: 20px;
+    font-weight: bold;
 }
