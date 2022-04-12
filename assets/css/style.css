@@ -12,6 +12,8 @@ header {
     color: #fff;
 }
 
+
+/* Buttons */
 button {
     padding: 5px 10px;
     color: #fff;
@@ -29,3 +31,16 @@ button {
     background-color: red;
 }
 
+
+/* Dates */
+main {
+    padding-left: 25px;
+}
+
+.date {
+    width: 200px;
+    height:150px;
+    border:1px solid #000;
+    display: inline-block;
+    margin: 5px 0 0 0;
+}
